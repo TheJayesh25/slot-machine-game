@@ -1,0 +1,26 @@
+Slot machine -> Machine where user spins the machine, characters match and based on characters
+                and bet user is paid money or told that he lost
+
+Involves -> Taking money from user as deposit. 
+            Validating if user is existing user and has pre defined balance. Add deposited amount to balance.
+            Subtract bet money.
+            Add winnings.
+            Display play again messages
+            Display error/ try again messages
+            Display low balance messages
+        
+Steps - 
+1. Login/ Sign up.
+2. If login -> Get already stored data such as balance, username, all time winnings
+3. If sign up -> Then balance will be zero
+4. Get user deposit
+5. Get user bet
+6. Get no of lines user wants to bet on
+7. Add symbols
+8. Give value to the symbols
+9. Spin the slot machine
+10. Display result
+11. Calculate winnings
+12. Add winnings to balance
+13. Ask if want to play again
+14. If low balance then display prompt
